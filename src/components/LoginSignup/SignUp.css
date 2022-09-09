@@ -1,0 +1,79 @@
+/* SignIn Form */
+.signUpForm, .logInForm {
+    height: 525px;
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 56px;
+    padding: 0 42px;
+    background-color: #E2E2E2;
+}
+
+.signUpForm  h2 {
+    font-size: 36px;
+    color: #2565AE;
+    margin-bottom: 26px;
+}
+
+.signUpForm input, .signUpForm button {
+    padding: 12px 15px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.signUpForm button {
+    margin-bottom: 0;
+    background-color: #2565AE;
+    color: #fff;
+}
+
+.signUpForm button:hover {
+    cursor: pointer;
+}
+
+.signUpForm p {
+    font-size: 26px;
+    margin-top: 33px;
+}
+
+.signUpForm p a {
+    color: #2565AE;
+    font-weight: bold;
+}
+
+.signUpForm p a:hover {
+    text-decoration: underline;
+}
+
+/* LogIn Form */
+.logInForm {
+    height: 411px;
+}
+
+.logInForm p a {
+    color: #000;
+    font-weight: lighter;
+}
+
+.logInForm p a:hover {
+    text-decoration: underline;
+}
+
+/* Reset Password Form */
+.resetPasswordForm {
+    height: 338px;
+}
+
+.resetPasswordForm h2, .resetPasswordForm p {
+    margin-bottom: 22px;
+}
+
+.resetPasswordForm p {
+    margin-top: 0;
+}

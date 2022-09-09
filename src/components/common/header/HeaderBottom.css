@@ -1,0 +1,25 @@
+.app__header-bottom {
+    padding-bottom: 16px;
+}
+
+.app__header-bottom-navbar-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-left: 30px;
+    padding-top:  80px;
+}
+
+.app__header-bottom-navbar-links li {
+    margin: 0 16px;
+}
+
+.app__header-bottom-navbar-links li:nth-child(1) {
+    margin-left: 0;
+}
+
+.app__header-bottom-navbar-links li a {
+    font-size: 20px;
+    color: #000;
+}

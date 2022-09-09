@@ -1,0 +1,39 @@
+.othernews .box {
+    margin-bottom: 30px;
+    margin-left: 2px;
+  }
+  .othernews .text {
+    padding: -80 30px;
+  }
+  .othernews .images {
+    width: 320px;
+    height: 220px;
+  }
+  .othernews img {
+    width: 320px;
+    height: 220px;
+    object-fit: cover;
+  }
+  .othernews h1 {
+    font-size: 22px;
+    padding-left:  10px;
+  }
+
+  .othernews p  {
+    padding-left: 10px;
+  }
+
+  .othernews label {
+    padding-left: 20px;
+  }
+
+  .othernews span {
+    padding-left:  10px;
+  }
+
+  @media screen and (max-width: 400px) {
+    .othernews img,
+    .othernews .images {
+      height: 350px;
+    }
+  }
